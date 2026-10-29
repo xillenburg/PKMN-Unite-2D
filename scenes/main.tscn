@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://drnso03tv8gla"]
+
+[ext_resource type="Script" uid="uid://cod3ndn338oxd" path="res://scripts/ground.gd" id="1"]
+[ext_resource type="Script" uid="uid://b8issd4ng5ta8" path="res://scripts/player.gd" id="2"]
+[ext_resource type="Resource" path="res://data/pokemon/venusaur.tres" id="3_h2yge"]
+[ext_resource type="Script" uid="uid://biidcosuf10pg" path="res://ui/healthbox_hud.gd" id="4"]
+[ext_resource type="Script" uid="uid://btg2g2710dwdq" path="res://scripts/game_camera.gd" id="5"]
+[ext_resource type="Script" uid="uid://c4lgjiqsmc5ff" path="res://ui/touch_controls.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/main.gd" id="7"]
+[ext_resource type="Script" path="res://ui/pause_menu.gd" id="8"]
+
+[node name="Main" type="Node2D" unique_id=1924373888]
+script = ExtResource("7")
+
+[node name="Ground" type="Node2D" parent="." unique_id=484417886]
+z_index = -100
+script = ExtResource("1")
+
+[node name="Player" type="Node2D" parent="." unique_id=1624935802]
+z_index = 2
+position = Vector2(16, 16)
+script = ExtResource("2")
+pokemon = ExtResource("3_h2yge")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1349975842]
+zoom = Vector2(5, 5)
+script = ExtResource("5")
+
+[node name="TouchControls" type="CanvasLayer" parent="." unique_id=410251498]
+layer = 65
+script = ExtResource("6")
+
+[node name="HealthboxHUD" type="CanvasLayer" parent="." unique_id=761675073]
+layer = 70
+script = ExtResource("4")
+
+[node name="PauseMenu" type="CanvasLayer" parent="." unique_id=987654321]
+process_mode = 3
+layer = 85
+script = ExtResource("8")

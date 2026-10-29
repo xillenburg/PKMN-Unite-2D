@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://moves/move_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Fire Blast"
+move_category = "special"
+move_type = "beam"
+power = 15.0
+cooldown_frames = 1200
+range = 220.0
+attack_range = 220.0
+tracking = true
+asset_path = "res://assets/moves/solar_beam.png"
+charge_asset_path = "res://assets/moves/solar_beam_charge.png"
+sound_path = "res://assets/audio/moves/solar_beam.mp3"
+xp_gain = 8.0
+play_hit_sound = true

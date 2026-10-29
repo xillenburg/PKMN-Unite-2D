@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://moves/move_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Water Gun"
+move_category = "special"
+move_type = "shot"
+power = 4.0
+cooldown_frames = 60
+range = 140.0
+attack_range = 140.0
+num_entities = 1
+asset_path = "res://assets/moves/hit_1.png"
+sound_path = "res://assets/audio/combat/hit.mp3"
+xp_gain = 2.0

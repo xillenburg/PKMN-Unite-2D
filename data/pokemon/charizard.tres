@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="PokemonData" load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://pokemon/pokemon_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/moves/tackle.tres" id="2"]
+[ext_resource type="Resource" path="res://data/moves/ember.tres" id="3"]
+[ext_resource type="Resource" path="res://data/moves/flamethrower.tres" id="4"]
+[ext_resource type="Resource" path="res://data/moves/fire_blast.tres" id="5"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Charizard"
+base_damage = 1.0
+card_asset = "res://assets/ui/cards_selection/charizard_card.png"
+sprite_full_body = "res://assets/pokemon/charizard/chzard_front.png"
+cry_audio = "res://assets/audio/cries/charizard.mp3"
+sprite_dir = "res://assets/pokemon/charizard/"
+sprite_prefix = "chder"
+stage1_h1 = "res://assets/pokemon/charizard/chder_h_1.png"
+stage1_h2 = "res://assets/pokemon/charizard/chder_h_2.png"
+stage1_v1 = "res://assets/pokemon/charizard/chder_v_1.png"
+stage1_v2 = "res://assets/pokemon/charizard/chder_v_2.png"
+stage1_v3 = "res://assets/pokemon/charizard/chder_v_3.png"
+stage1_v4 = "res://assets/pokemon/charizard/chder_v_4.png"
+stage2_h1 = "res://assets/pokemon/charizard/chmel_h_1.png"
+stage2_h2 = "res://assets/pokemon/charizard/chmel_h_2.png"
+stage2_v1 = "res://assets/pokemon/charizard/chmel_v_1.png"
+stage2_v2 = "res://assets/pokemon/charizard/chmel_v_2.png"
+stage2_v3 = "res://assets/pokemon/charizard/chmel_v_3.png"
+stage2_v4 = "res://assets/pokemon/charizard/chmel_v_4.png"
+stage3_h1 = "res://assets/pokemon/charizard/chzard_h_1.png"
+stage3_h2 = "res://assets/pokemon/charizard/chzard_h_2.png"
+stage3_v1 = "res://assets/pokemon/charizard/chzard_v_1.png"
+stage3_v2 = "res://assets/pokemon/charizard/chzard_v_2.png"
+stage3_v3 = "res://assets/pokemon/charizard/chzard_v_3.png"
+stage3_v4 = "res://assets/pokemon/charizard/chzard_v_4.png"
+stage4_h1 = "res://assets/pokemon/charizard/m_chzard_h_1.png"
+stage4_h2 = "res://assets/pokemon/charizard/m_chzard_h_2.png"
+stage4_v1 = "res://assets/pokemon/charizard/m_chzard_v_1.png"
+stage4_v2 = "res://assets/pokemon/charizard/m_chzard_v_2.png"
+stage4_v3 = "res://assets/pokemon/charizard/m_chzard_v_3.png"
+stage4_v4 = "res://assets/pokemon/charizard/m_chzard_v_4.png"
+stages = {
+1: {
+"h_1": "res://assets/pokemon/charizard/chder_h_1.png",
+"h_2": "res://assets/pokemon/charizard/chder_h_2.png",
+"name": "Charmander",
+"v_1": "res://assets/pokemon/charizard/chder_v_1.png",
+"v_2": "res://assets/pokemon/charizard/chder_v_2.png",
+"v_3": "res://assets/pokemon/charizard/chder_v_3.png",
+"v_4": "res://assets/pokemon/charizard/chder_v_4.png"
+},
+2: {
+"h_1": "res://assets/pokemon/charizard/chmel_h_1.png",
+"h_2": "res://assets/pokemon/charizard/chmel_h_2.png",
+"name": "Charmeleon",
+"v_1": "res://assets/pokemon/charizard/chmel_v_1.png",
+"v_2": "res://assets/pokemon/charizard/chmel_v_2.png",
+"v_3": "res://assets/pokemon/charizard/chmel_v_3.png",
+"v_4": "res://assets/pokemon/charizard/chmel_v_4.png"
+},
+3: {
+"h_1": "res://assets/pokemon/charizard/chzard_h_1.png",
+"h_2": "res://assets/pokemon/charizard/chzard_h_2.png",
+"name": "Charizard",
+"v_1": "res://assets/pokemon/charizard/chzard_v_1.png",
+"v_2": "res://assets/pokemon/charizard/chzard_v_2.png",
+"v_3": "res://assets/pokemon/charizard/chzard_v_3.png",
+"v_4": "res://assets/pokemon/charizard/chzard_v_4.png"
+},
+4: {
+"h_1": "res://assets/pokemon/charizard/m_chzard_h_1.png",
+"h_2": "res://assets/pokemon/charizard/m_chzard_h_2.png",
+"name": "Mega Charizard",
+"v_1": "res://assets/pokemon/charizard/m_chzard_v_1.png",
+"v_2": "res://assets/pokemon/charizard/m_chzard_v_2.png",
+"v_3": "res://assets/pokemon/charizard/m_chzard_v_3.png",
+"v_4": "res://assets/pokemon/charizard/m_chzard_v_4.png"
+}
+}
+attack_1 = ExtResource("2")
+attack_2 = ExtResource("3")
+attack_3 = ExtResource("4")
+special = ExtResource("5")

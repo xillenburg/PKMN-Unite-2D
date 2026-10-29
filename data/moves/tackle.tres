@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://moves/move_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Tackle"
+move_category = "physical"
+move_type = "melee"
+power = 1.0
+cooldown_frames = 0
+range = 44.0
+attack_range = 44.0
+sound_path = "res://assets/audio/moves/tackle.mp3"
+xp_gain = 1.0
+hitbox_radius = 7.0

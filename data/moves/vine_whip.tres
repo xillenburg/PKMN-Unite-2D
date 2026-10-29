@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://moves/move_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "Vine Whip"
+move_category = "physical"
+move_type = "melee"
+power = 45.0
+cooldown_frames = 40
+range = 150.0
+attack_range = 150.0
+sound_path = "res://assets/audio/moves/vine_whip.mp3"
+xp_gain = 3.0
